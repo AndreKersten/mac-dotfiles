@@ -1,0 +1,30 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+[user]
+	name = Andre Kersten
+	email = andre.kersten@gymondo.de
+[alias]
+    br = branch
+    co = checkout
+    d = diff
+    dc = diff --cached
+    delete-merged-branches = !git branch --merged | grep -v '*' | xargs -n 1 git branch -d
+    f = fetch
+    l = log --all --graph --decorate --oneline --simplify-by-decoration
+    ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+    ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+    pom = push origin master
+    pr = pull --rebase
+    r = rebase
+    s = status -s
+    sa = stash apply
+    sc = stash clear
+    sl = stash list
+    sp = stash pop
+    st = status
+    undocommit = reset HEAD^
+[push]
+    default = simple
+[core]
+    editor = vim

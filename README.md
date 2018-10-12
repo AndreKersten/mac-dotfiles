@@ -1,2 +1,2 @@
 # mac-dotfiles
-dotfiles to setup macOS
+My prefered dotfiles to setup macOS
