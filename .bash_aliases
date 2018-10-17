@@ -1,6 +1,7 @@
 # some more aliases
 alias l='ls -l'
 alias la='ls -la'
+alias te='open -a TextEdit'
 
 # directories
 alias .='echo $PWD'
