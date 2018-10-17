@@ -7,4 +7,4 @@ alias .='echo $PWD'
 alias ..='cd ..'
 
 # ansible
-alias ansiblerun='ansible-playbook ~/gymondo_src/ansible-mac-setup/main.yml -i inventory -K'
+alias ansiblerun='ansible-playbook ~/gymondo_src/ansible-mac-setup/main.yml -i ~/gymondo_src/ansible-mac-setup/inventory -K'
