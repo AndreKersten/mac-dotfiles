@@ -18,3 +18,8 @@ parse_git_branch() {
 export PS1="\[\e[0;32m\]\]\$(parse_git_branch) \[\e[1;32m\]\]\t \[\e[0;2m\]\]\w \[\e[0m\]\]\[$\] "
 
 
+# Include alias file (if present) containing aliases for ssh, etc.
+if [ -f ~/.bash_aliases ]
+then
+  source ~/.bash_aliases
+fi
